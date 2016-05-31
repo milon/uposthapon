@@ -35,8 +35,8 @@ Slides are written in Markdown, and are separated by two dashes (--).
 ### Title slide
 
 ```
-# Cleaver 101
-## A first look at quick HTML presentations
+# Uposthapon
+## A Simple Markdown to HTML Presentation Converter
 ```
 **h1** and **h2** elements (prefaced with *#* and *##* respectively), will
 automatically include padding to render a title slide.
