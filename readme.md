@@ -2,6 +2,10 @@
 
 Uposthapon is a simple markdown to html presentation converter hugely influenced by [Cleaver](https://github.com/jdan/cleaver). The syntax is almost same, even some resources also used from that package specially stylesheets and javascript.
 
+## Online Demo
+
+View online demo [here](https://milon.github.io/uposthapon).
+
 ## Requirement
 
 PHP and composer is needed to run Uposthapon.
@@ -30,7 +34,7 @@ uposthapon convert 'filename.md' --style='style.css'
 
 ## Slide Types
 
-Slides are written in Markdown, and are separated by two dashes (--).
+Slides are written in Markdown, and are separated by two dashes (--) surrounded by line breaks.
 
 ### Title slide
 
