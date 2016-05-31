@@ -30,6 +30,8 @@ uposthapon convert 'filename.md' --style='style.css'
 
 ## Slide Types
 
+Slides are written in Markdown, and are separated by two dashes (--).
+
 ### Title slide
 
 ```
@@ -70,6 +72,7 @@ To navigate the slideshow:
 The toggle fullscreen mode, press the **ENTER** key.
 
 ---
+License: GNU LGPLv3
 
 Any suggestion or pull request is highly welcomed.
 
