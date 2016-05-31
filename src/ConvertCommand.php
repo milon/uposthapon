@@ -50,7 +50,7 @@ class ConvertCommand extends Command
         $style = $this->loadStylesheet($stylesheet);
 
         // load script
-        $script = file_get_contents('resources/script.js');
+        $script = file_get_contents(__DIR__.'/../resources/script.js');
 
         // load markdown file content
         $fileContent = file_get_contents($filename);
@@ -64,14 +64,14 @@ class ConvertCommand extends Command
         $presentation = $this->blade->render('layout', compact('content', 'style', 'script'));
 
         // create html
-        file_put_contents('presentation.html', $presentation);
+        file_put_contents(getcwd().'/presentation.html', $presentation);
 
         $output->writeln('<comment>Successfully compiled.</comment>');
     }
 
     private function loadStylesheet($stylesheet)
     {
-        $default = file_get_contents('resources/default.css');
+        $default = file_get_contents(__DIR__.'/../resources/default.css');
 
         // load stylesheet content
         if($stylesheet) {
