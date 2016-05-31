@@ -37,7 +37,7 @@ uposthapon convert 'filename.md' --style='style.css'
 
 ### Slide Types
 
-Slides are written in Markdown, and are separated by two dashes (--).
+Slides are written in Markdown, and are separated by two dashes (--) surrounded by line break.
 
 #### Title slide
 
@@ -83,3 +83,7 @@ Brought to you by-
 **Nuruzzaman Milon**  
 [@milon521](https://twitter.com/milon521)  
 [https://milon.im](https://milon.im)
+
+```
+Published Under- GNU LGPLv3
+```
