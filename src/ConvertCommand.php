@@ -19,7 +19,7 @@ class ConvertCommand extends Command
     {
         parent::__construct();
 
-        $this->blade = new Blade(__DIR__.'/templates', __DIR__.'/cache');
+        $this->blade = new Blade(__DIR__.'/../templates', __DIR__.'/../cache');
         $this->parse = new Parsedown;
     }
 
@@ -55,7 +55,7 @@ class ConvertCommand extends Command
         // load markdown file content
         $fileContent = file_get_contents($filename);
 
-        $slides = explode('--', $fileContent);
+        $slides = explode("\n--\n", $fileContent);
 
         // render markdown
         $content = $this->renderMarkdown($slides);
