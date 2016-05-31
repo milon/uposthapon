@@ -19,7 +19,7 @@ class ConvertCommand extends Command
     {
         parent::__construct();
 
-        $this->blade = new Blade('templates', 'cache');
+        $this->blade = new Blade(__DIR__.'/templates', __DIR__.'/cache');
         $this->parse = new Parsedown;
     }
 
