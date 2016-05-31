@@ -1,0 +1,21 @@
+{
+    "name": "milon/uposthapon",
+    "description": "Simple markdown to html presentation slide converter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuruzzaman Milon",
+            "email": "contact@milon.im"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.1",
+        "jenssegers/blade": "^1.0",
+        "erusev/parsedown": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uposthapon\\": "src"
+        }
+    }
+}
