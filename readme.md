@@ -2,9 +2,9 @@
 
 Uposthapon is a simple markdown to html presentation converter hugely influenced by [Cleaver](https://github.com/jdan/cleaver). The syntax is almost same, even some resources also used from that package specially stylesheets and javascript.
 
-## Online Demo
+## Online Example
 
-View online demo [here](https://milon.github.io/uposthapon).
+An online example of a presentation slide created with Uposthapon can be found [here](https://milon.github.io/uposthapon).
 
 ## Requirement
 
